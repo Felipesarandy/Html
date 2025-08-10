@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height:  20vh;
+    width: 100%;
+    background-color: black;
+    color: #00c800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00c800;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section#area_cartelas{
+    width: 70%;
+    height: 75vh;
+    background-color: black;
+    border: 1px solid #00c800;
+}
+
+div#header_cartelas{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #00c800;
+    border: 1px solid #00c800;
+}
+
+h4{
+    color: #00c800;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+div#body_cartelas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section#area_numeros{
+    width: 30%;
+    height: 75vh;
+    background-color: black;
+    border: 1px solid #00c800;
+}
+
+div#body_numeros{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+div#body_numeros span{
+background-color: #00c800;
+color: rgb(0, 0, 0);
+width: 30px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+box-shadow: #00c800;
+margin: 3px;
+}
+
+div.cartela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+div.cartela h4{
+    margin-bottom: 5px;
+}
+
+table, th, td{
+    border: 1px solid #00c800;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #00c800;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #00dc00;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+div#header_numeros{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #00c800;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #00c800;
+}
